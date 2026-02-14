@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Engr. Ahmad Alam - Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Splash Screen Preloader -->
+    <div id="splash-screen" class="splash-container">
+      <div class="stars"></div>
+      <div class="jets-container">
+        <img src="assets/images/fighter.png" class="jet" alt="Fighter Jet">
+        <img src="assets/images/fighter.png" class="jet" alt="Fighter Jet">
+        <img src="assets/images/fighter.png" class="jet" alt="Fighter Jet">
+        <img src="assets/images/fighter.png" class="jet" alt="Fighter Jet">
+        <img src="assets/images/fighter.png" class="jet" alt="Fighter Jet">
+      </div>
+      <div class="loading-container">
+        <div class="loading-text">Loading Portfolio</div>
+        <div class="loading-bar-container">
+          <div class="loading-bar"></div>
+        </div>
+        <div class="loading-percentage">0%</div>
+      </div>
+    </div>
+
+    <div class="background-animation"></div>
+
+    <!-- Navigation -->
+    <nav class="glass">
+      <div class="nav-left">
+        <button id="bento-trigger" class="bento-btn" aria-label="Menu">
+          <i class="fa-solid fa-grip"></i>
+        </button>
+        <div class="logo">
+          <img src="assets/images/logo.png" alt="Logo" />
+          <span>Engr. Ahmad Alam</span>
+        </div>
+      </div>
+      <div class="nav-right">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Bento Menu Overlay -->
+    <div id="bento-menu" class="bento-overlay glass">
+      <div class="bento-grid">
+        <a href="#home" class="bento-item">
+          <i class="fa-solid fa-house"></i>
+          <span>Home</span>
+        </a>
+        <a href="#about" class="bento-item">
+          <i class="fa-solid fa-user"></i>
+          <span>About Me</span>
+        </a>
+        <a href="#experience" class="bento-item">
+          <i class="fa-solid fa-briefcase"></i>
+          <span>Experience</span>
+        </a>
+        <a href="#education" class="bento-item">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span>Education</span>
+        </a>
+        <a href="#skills" class="bento-item">
+          <i class="fa-solid fa-wrench"></i>
+          <span>Skills</span>
+        </a>
+        <a href="#certificates" class="bento-item">
+          <i class="fa-solid fa-certificate"></i>
+          <span>Certificates</span>
+        </a>
+        <a href="#contact" class="bento-item">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Contact</span>
+        </a>
+        <a
+          href="../docs/assets/pdf/ahmad_alam_cv.pdf"
+          class="bento-item download"
+          download
+        >
+          <i class="fa-solid fa-file-pdf"></i>
+          <span>Resume</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-content glass">
+          <div class="profile-container">
+            <img
+              src="assets/images/profile_pic.png"
+              alt="Engr. Ahmad Alam"
+              class="profile-pic"
+            />
+          </div>
+          <h1>Engr. Ahmad Alam</h1>
+          <h2>Mechanical QC INSPECTOR</h2>
+          <h2>Iqama status: Valid and Transferable</h2><br>
+          <div class="text-morph">
+            <span
+              class="morph-text"
+              data-text="QA/QC Inspection,Welding Inspection,NDT Coordination,ASME Standards"
+              >QA/QC Inspection</span
+            >
+          </div>
+          <div class="hero-actions">
+            <a href="#contact" class="btn liquid-btn">Contact Me</a>
+            <a
+              href="assets/pdf/ahmad_alam_cv.pdf"
+              class="btn liquid-btn secondary download-btn"
+              download
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">Professional Story</h2>
+        <div class="card glass border-draw">
+          <p>
+            I am a dedicated QA/QC Mechanical Inspector with a passion for
+            engineering excellence. Over the past five years, I have honed my
+            skills in ensuring quality and compliance in challenging
+            construction and industrial environments. My journey began with a
+            solid foundation in Mechanical Engineering from UET Peshawar, which
+            I have since built upon with practical, hands-on experience in
+            pipeline and piping projects, as well as plant shutdowns. I pride
+            myself on my attention to detail, whether it's inspecting complex
+            welds, verifying flange integrity, or ensuring that every component
+            meets rigorous international standards. I thrive in dynamic team
+            settings and am always eager to apply my technical knowledge to
+            "tackle tough problems" and drive project success.
+          </p>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="cards-grid">
+          <!-- Experience Item 1 -->
+          <div class="card glass border-draw">
+            <h3>Mechanical QC Inspector</h3>
+            <h4>TASNEE SHUTDOWN/TURNAROUND</h4>
+            <p class="date">Jan 2026 - Jan 2026</p>
+            <p>
+              Shutdown inspection activities ensuring safety and quality
+              standards.
+            </p>
+          </div>
+          <!-- Experience Item 2 -->
+          <div class="card glass border-draw">
+            <h3>Mechanical QC Inspector</h3>
+            <h4>Rayis Rabigh JV (Pipeline Project)</h4>
+            <p class="date">Oct 2025 - Jan 2026</p>
+            <p>
+              Pipeline project inspection under Jeddah Aims Contracting Company.
+            </p>
+          </div>
+          <!-- Experience Item 3 -->
+          <div class="card glass border-draw">
+            <h3>MTO. Stitching Maintenance</h3>
+            <h4>Style Textile Manga</h4>
+            <p class="date">Nov 2024 - Aug 2025</p>
+            <p>Maintenance for Adidas & Nike production lines.</p>
+          </div>
+          <!-- Experience Item 4 -->
+          <div class="card glass border-draw">
+            <h3>Mechanical QC Inspector</h3>
+            <h4>Eastern Province Cement Company Line-4</h4>
+            <p class="date">Nov 2023 - Jun 2024</p>
+            <p>Contracting with Sinoma CDI, sub-contractor Burj Al Riyadh.</p>
+          </div>
+          <!-- Experience Item 5 -->
+          <div class="card glass border-draw">
+            <h3>Mechanical QC Inspector</h3>
+            <h4>Plant Shutdown/Turnaround</h4>
+            <p class="date">Sep 2023 - Oct 2023</p>
+            <p>Shaukat Khanum MC, Peshawar under Greeaves AC.Pvt.Ltd.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="cards-grid">
+          <!-- Degree -->
+          <div class="card glass border-draw">
+            <h3>BSc Mechanical Engineering</h3>
+            <h4>University of Engineering & Technology Peshawar</h4>
+            <p class="date">Pakistan</p>
+            <p>
+              Graduated with a Bachelor of Science degree in Mechanical Engineering, building a strong foundation in engineering principles and practices.
+            </p>
+          </div>
+          
+          <!-- Certifications
+          <div class="card glass border-draw">
+            <h3>Professional Certifications</h3>
+            <ul style="list-style: none; padding: 0; margin-top: 15px;">
+              <li style="margin-bottom: 10px;">
+                <i class="fa-solid fa-certificate" style="color: var(--secondary-color); margin-right: 10px;"></i>
+                <strong>Basic HVAC Course</strong> by Engr. Mohd Sharif
+              </li>
+              <li style="margin-bottom: 10px;">
+                <i class="fa-solid fa-certificate" style="color: var(--secondary-color); margin-right: 10px;"></i>
+                <strong>Project Scheduling & Control</strong> using Primavera P6 Oracle
+              </li>
+              <li style="margin-bottom: 10px;">
+                <i class="fa-solid fa-certificate" style="color: var(--secondary-color); margin-right: 10px;"></i>
+                <strong>AutoCAD</strong> from Autodesk
+              </li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card glass shimmer">
+            <i class="fa-solid fa-file-contract"></i>
+            <span>Review of drawings, WPS, PQR, ITP</span>
+          </div>
+          <div class="skill-card glass shimmer">
+            <i class="fa-solid fa-check-double"></i>
+            <span>Inspection & Acceptance</span>
+          </div>
+          <div class="skill-card glass shimmer">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <span>NCR Management</span>
+          </div>
+          <div class="skill-card glass shimmer">
+            <i class="fa-solid fa-water"></i>
+            <span>Hydrotesting Supervision</span>
+          </div>
+          <div class="skill-card glass shimmer">
+            <i class="fa-solid fa-book"></i>
+            <span>ASME, API compliance</span>
+          </div>
+          <div class="skill-card glass shimmer">
+            <i class="fa-solid fa-ruler-combined"></i>
+            <span>Alignment & Dimensional Inspection</span>
+          </div>
+        </div>
+
+        <h2 class="section-title">Software Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card glass shimmer">
+            <i class="fa-solid fa-drafting-compass"></i>
+            <span>AutoCAD</span>
+          </div>
+          <div class="skill-card glass shimmer">
+            <i class="fa-solid fa-calendar-days"></i>
+            <span>Primavera P6</span>
+          </div>
+          <div class="skill-card glass shimmer">
+            <i class="fa-brands fa-microsoft"></i>
+            <span>MS Office Suite</span>
+          </div>
+          <div class="skill-card glass shimmer">
+            <i class="fa-solid fa-server"></i>
+            <span>ERP & IMS</span>
+          </div>
+        </div>
+
+        <h2 class="section-title">Languages</h2>
+        <div class="skills-grid">
+          <div class="skill-card glass shimmer">
+            <i class="fa-solid fa-language"></i>
+            <span>English</span>
+            <small style="color: var(--secondary-color); margin-top: 5px;">Fluent</small>
+          </div>
+          <div class="skill-card glass shimmer">
+            <i class="fa-solid fa-language"></i>
+            <span>Urdu</span>
+            <small style="color: var(--secondary-color); margin-top: 5px;">Native</small>
+          </div>
+          <div class="skill-card glass shimmer">
+            <i class="fa-solid fa-language"></i>
+            <span>Pashto</span>
+            <small style="color: var(--secondary-color); margin-top: 5px;">Native</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section">
+      <div class="container">
+        <h2 class="section-title">Certificates</h2>
+        <div class="gallery-grid">
+          <div
+            class="gallery-item glass zoom-effect"
+            onclick="openLightbox('assets/images/certificates/degree_uni.png')"
+          >
+            <img
+              src="assets/images/certificates/degree_uni.png"
+              alt="University Degree"
+            />
+            <div class="overlay">University Degree</div>
+          </div>
+          <div
+            class="gallery-item glass zoom-effect"
+            onclick="openLightbox('assets/images/certificates/iso.png')"
+          >
+            <img src="assets/images/certificates/iso.png" alt="ISO Certification" />
+            <div class="overlay">ISO Certification</div>
+          </div>
+          <div
+            class="gallery-item glass zoom-effect"
+            onclick="
+              openLightbox('assets/images/certificates/iso_acadamic-record.png')
+            "
+          >
+            <img
+              src="assets/images/certificates/iso_acadamic-record.png"
+              alt="ISO Record"
+            />
+            <div class="overlay">ISO Record</div>
+          </div>
+          <div
+            class="gallery-item glass zoom-effect"
+            onclick="openLightbox('assets/images/certificates/primeavera-p6.png')"
+          >
+            <img
+              src="assets/images/certificates/primeavera-p6.png"
+              alt="Primavera P6"
+            />
+            <div class="overlay">Primavera P6</div>
+          </div>
+          <div
+            class="gallery-item glass zoom-effect"
+            onclick="openLightbox('assets/images/certificates/raiys.png')"
+          >
+            <img
+              src="assets/images/certificates/raiys.png"
+              alt="Raiys Experience"
+            />
+            <div class="overlay">Raiys Experience</div>
+          </div>
+          <div
+            class="gallery-item glass zoom-effect"
+            onclick="openLightbox('assets/images/certificates/sinoma.png')"
+          >
+            <img
+              src="assets/images/certificates/sinoma.png"
+              alt="Sinoma Experience"
+            />
+            <div class="overlay">Sinoma Experience</div>
+          </div>
+          <div
+            class="gallery-item glass zoom-effect"
+            onclick="openLightbox('assets/images/certificates/style_textile.png')"
+          >
+            <img
+              src="assets/images/certificates/style_textile.png"
+              alt="Style Textile Experience"
+            />
+            <div class="overlay">Style Textile Experience</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-card glass">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alamahmad483@gmail.com" target="_blank">alamahmad483@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <a href="https://wa.me/966582074675" target="_blank">+966 58 207 4675</a>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Jubail, Saudi Arabia</span>
+            </div>
+          </div>
+          
+          <div class="social-links-grid">
+            <a
+              href="https://wa.me/966582074675"
+              target="_blank"
+              class="contact-btn whatsapp"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>WhatsApp</span>
+            </a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alamahmad483@gmail.com" target="_blank" class="contact-btn email">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Email</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ahmad-alam-0a1b2c3d4/"
+              target="_blank"
+              class="contact-btn linkedin"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a
+              href="tel:+966582074675"
+              class="contact-btn phone"
+            >
+              <i class="fa-solid fa-phone"></i>
+              <span>Call Me</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox glass" onclick="closeLightbox()">
+      <span class="close-btn">&times;</span>
+      <img id="lightbox-img" src="" alt="Fullscreen Image" />
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer glass">
+      <p>&copy; 2026 Engr. Ahmad Alam.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
